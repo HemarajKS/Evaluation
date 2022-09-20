@@ -16,13 +16,10 @@ function arrayMatrix() {
 
     for (var i = 0; i < alphaLen; i++) {
         matrixElements.push(newAlpha[i]);
-
     }
 
     for (var j = 0; j < n; j++) {
         matRows.push(matrixElements.splice(0, n));
-
-
     }
 
     output = matRows[0].map((_, colIndex) => matRows.map(row => row[colIndex]));
