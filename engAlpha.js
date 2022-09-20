@@ -4,12 +4,18 @@ var alphaLen = n * n;
 var matrixElements = [];
 var matrix = [];
 let matRows = [];
+let arr1=["x"];
 
+for(var p=0;p<n;p++){var newAlpha= alphabet.concat(alphabet)}
+
+
+
+console.log(newAlpha)
 
 function arrayMatrix() {
- 
+
     for (var i = 0; i < alphaLen; i++) {
-        matrixElements.push(alphabet[i]);
+        matrixElements.push(newAlpha[i]);
 
     }
 
